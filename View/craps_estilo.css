@@ -1,0 +1,499 @@
+body { font-family:verdana, arial, sans-serif;
+    color: black;
+    background-image:url(../Imagenes/background.gif);
+    background-repeat:repeat;
+}
+
+h1 {
+    margin-top: 5px;
+    font-size: 500%;
+    font-family:Lithos Pro;
+    float:left;
+    color:white;
+}
+h2 {
+    margin: 0px;
+    font-size: 100%;
+}
+a  {
+    text-decoration:none;
+}
+p {
+    font-size: 120%;
+    margin:0;
+    padding:0;
+    text-align:justify;
+}
+.error{
+    color:yellow;
+    font-size:100%;
+}
+.pk{
+    font-size: 80%;
+}
+#suerte{
+    font-size: 90%;
+}
+#bEntrar{
+    position:absolute;
+    width:150px;
+    height:auto;
+    top:250px;
+    left:340px;
+}
+#iHead{
+    position:absolute;
+    width: 980px;
+    height: 530px;
+}
+#iLose{
+    position:absolute;
+    width: 980px;
+   height: 510px;
+}
+#mensaje{
+   width:100px;
+}
+label {
+    font-size: 120%;
+    margin:0;
+    padding:0;
+    text-align:justify;
+}
+li {
+    font-size: 80%;
+}
+#table{
+    z-index: 2;
+}
+#container{
+   position: absolute;
+   width: 980px;
+   height: 510px;
+   top:0px;
+   left: 0px;
+}
+
+.inicio{
+    position: absolute;
+    width: 1081px;
+    height: 562px;
+}
+#main{
+    position: absolute;
+    width: 980px;
+    height: 510px;
+    top:3px;
+    left: 0px;
+    background-color: white;
+    color:black;
+}
+#mainMenu{
+    position: absolute;
+    width: 980px;
+   height: 510px;
+    top:0px;
+    left: 0px;
+    background-image:  url(../Imagenes/wall.jpg);
+    color:white;
+}
+#content{
+    position: absolute;
+    left: 230px;
+    top:220px;
+    width: 300px;
+}
+#rules{
+    position: absolute;
+    left: 200px;
+    top:50px;
+    width: 100px;
+}
+#mainRegla{
+    width: 980px;
+   height: 510px;
+    top:0px;
+    left: 0px;
+    background-image:  url(../Imagenes/backRegla.png);
+    color:white;
+    background-color:white;
+    background-repeat: no-repeat;
+}
+#mainInicio{
+    position: absolute;
+  width: 980px;
+   height: 510px;
+    top:0px;
+   left: 0px;
+    background-image:  url(../Imagenes/wall.jpg);
+    z-index:1;
+}
+#mainLose{
+    position: absolute;
+   width: 980px;
+   height: 520px;
+    top:0px;
+    left: 0px;
+}
+#LogImag{
+    position: absolute;
+    width:300px;
+    height:144px;
+    top:45px;
+    left: -120px;
+    color:white;
+}
+#mainCraps{
+    position: absolute;
+    width: 980px;
+    height: 500px;
+    top:0px;
+    left: 0px;
+    background-color: #548347;
+    color:white;
+    border: 2px solid black;
+}
+
+#buttonBox{
+    position: absolute;
+    left: 35px;
+    top:430px;
+    width: 700px;
+}
+#buttonBox2{
+    position: absolute;
+    left: 100px;
+    top:430px;
+    width: 700px;
+}
+
+
+#lista{
+    list-style-type: none;
+    margin: 20px;
+    margin-left: 20px;
+    padding:0;
+}
+#lista li{
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid whitesmoke;
+    float: left;
+}
+#lista li a{
+    display: block;
+    width:200px;
+    padding: 4px 0;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: #400000 ;
+    background:  white;
+}
+#lista li a:hover{
+    color:white;
+    background: #400000 ;
+    cursor:pointer;
+}
+#lista2{
+    list-style-type: none;
+    margin: 10px;
+    margin-left: 10px;
+    padding:0;
+}
+#lista2 li{
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid whitesmoke;
+    float: left;
+}
+#lista2 li a{
+    display: block;
+    width:100px;
+    padding: 2px 0;
+    text-decoration: none;
+    text-align: center;
+    font-size: 10px;
+    color: #400000 ;
+    background:  white;
+}
+#lista2 li a:hover{
+    color:white;
+    background: #400000 ;
+    cursor:pointer;
+}
+#reglas{
+    position: absolute;
+    width: 470px;
+    height:340px;
+    left:350px;
+    top:95px;
+    color:#6f3103;
+    overflow-y: scroll;
+    scrollbar-face-color: #6f3103;
+    scrollbar-shadow-color: #ebc982;
+    scrollbar-highlight-color: #ebc982;
+    scrollbar-3dlight-color: white;
+    scrollbar-darkshadow-color: white;
+    scrollbar-arrow-color: #FFFFFF;
+}
+#reglasTitle{
+    position: absolute;
+    left:380px;
+    top:28px;
+    color:#6f3103;
+    font-size: 30px;
+    font-family: "Comic Sans";
+}
+#contentReglas{
+    position: absolute;
+    font-size: 12px; 
+    right: 10px;
+}
+#jugarBoton{
+    font-size: 30px;
+}
+.ingresarTabla{
+    position: absolute;
+    top:120px;
+    left: 238px;
+}
+
+.crapsChico{
+    position: relative;
+    left: 130px;
+    width:280px;
+    height:160px;
+}
+/*html :  Craps*/
+
+#contentCraps{
+    position: relative;
+    width: 720px;
+    height: 450px;
+    top:10px;
+    left: 10px;
+    
+    
+    
+}
+#dados{
+    position: absolute;
+    height: 400px;
+    width: 720px;
+    left:0px;
+    top: 0px;
+    
+}
+.dado{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 190px;
+    left: 790px;
+}
+
+.dado2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 190px;
+    left: 870px;
+}
+
+.monto{
+    position:absolute;
+    width:100px;
+    text-align:center;
+    font-size:25px;
+    top:0px;
+    left:550px;
+}
+.montoQty{
+    position:absolute;
+    width:150px;
+    text-align:center;
+    font-size:30px;
+    border:1.5px solid white;
+    top:40px;
+    left:550px;
+}
+#roll{
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+    top:30px;
+    left:720px;
+   font-size: Calibri;
+   color:#003300;
+   background-color:#CCFF66;
+   border-top-style:solid;
+   border-top-color:#000000;
+   border-bottom-style:solid;
+   border-bottom-color:#000000;
+   border-left-style:solid;
+   border-left-color:#000000;
+   border-right-style:double;
+   border-right-color:#000000;
+}
+
+#roll:hover{
+
+   color:#FFFFFF;
+   background-color:#006600;
+
+}
+
+  
+
+#clear{
+    position: absolute;
+    top:95px;
+    left:768px;
+   font-size:16px;
+   font-family:Calibri;
+   color:#003300;
+   background-color:#CCFF66;
+   border-top-style:solid;
+   border-top-color:#000000;
+   border-bottom-style:solid;
+   border-bottom-color:#000000;
+   border-left-style:solid;
+   border-left-color:#000000;
+   border-right-style:double;
+   border-right-color:#000000;
+}
+#clear:hover {
+   
+    color:#FFFFFF;
+   background-color:#006600;
+  
+}
+#off{
+    z-index: 2;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top:20px;
+    left:105px;
+}
+#on{
+    z-index: 1;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top:20px;
+    left:105px;
+}
+
+
+.regresarBoton{
+    position: absolute;
+    top: 400px;
+    left: 770px;
+    width: 180px;
+    height: 70px;
+}
+
+#chip10{
+    z-index: 2;
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top:420px;
+    left:0px;
+}
+#chip50{
+    z-index: 2;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top:420px;
+    left:50px;
+}
+#chip100{
+    z-index: 2;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top:420px;
+    left:100px;
+}
+#chip500{
+    z-index: 2;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top:420px;
+    left:150px;
+}
+#chip1000{
+    z-index: 2;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top:420px;
+    left:200px;
+}
+
+#regTable{
+width: 300px;
+height: 140px;
+position: absolute;
+top: 180px;
+left:60px;
+border: 1px solid #400000;
+}
+
+#CrapsLogo{
+position: absolute;
+top: 20px;
+left:120px;  
+}
+
+#msjsindinero{
+position: absolute;
+top: 420px;
+left:20px;  
+}
+
+#lista3{
+    list-style-type: none;
+    margin: 5px;
+    margin-left: 20px;
+    padding:0;
+}
+#lista3 li{
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid whitesmoke;
+    float: left;
+}
+#lista3 li a{
+    display: block;
+    width:100px;
+    padding: 4px 0;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: #400000 ;
+    background:  white;
+}
+#lista3 li a:hover{
+    color:white;
+    background: #400000 ;
+    cursor:pointer;
+}
+
+#profilePic{
+    position: absolute;
+    top: 150px;
+    left:400px;
+}
+
+#imgr{
+    position:relative;
+    top: 20px;
+    left:100px;
+}

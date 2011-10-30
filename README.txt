@@ -1,0 +1,1 @@
+Iniciado desde index.php

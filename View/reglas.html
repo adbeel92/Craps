@@ -1,0 +1,67 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Craps Game</title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta name="title" content="Craps Game" />
+    <meta name="author" content="Eduardo Arenas, Gabriel Lucano, Jeffrey Pinedo" />
+    <meta name="robots" content="all,follow,index">
+    <meta name="keywords" content="craps, dados, juego de dados, craps Game" />
+    
+    <meta name="description" content="Juego de Dados"/>
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="mover.js"></script>
+    
+    <link  href="craps_estilo.css" rel="stylesheet" type="text/css" media="screen"/>
+    </head>
+    <body>
+        <div id="container">
+            <div id="mainRegla">
+                <div id="reglasTitle"><p>Reglas del Juego</p></div>
+                <div id="reglas">
+                    <div id="contentReglas">
+                        <p>En craps, los jugadores realizan apuestas en base a lo que sale en los dados. Se utilizan dos dados de seis caras. El "tirador" es el jugador que arroja los dados.</p> 
+                        </br>
+                        <p>Para tus apuestas, utiliza las fichas que estan en la mesa. Existen Fichas de $10, $50, $100, $500 y $1000</p>
+                        </br>
+                        <p>Cada Zona de la Mesa tiene Reglas Distintas, Asegurate de Leerlas antes de Empezar a jugar</p>
+                        
+                        <img id="regTable" src="../Imagenes/Crapslayout.png" alt="on"/>
+                       
+
+                    </div>
+                </div>
+                <div id="rules">
+                    <ul id="lista2">
+                        <li ><a id="rprincipal" href="#">Regla Principal</a></li>
+                        <li ><a id="apassline" href="#">Apuestas Pass Line</a></li>
+                        <li ><a id="adontpassline" href="#">Apuestas Don't Pass Line</a></li>
+                        <li ><a id="acome" href="#">Apuestas Come</a></li>
+                        <li ><a id="adontcome" href="#">Apuestas Don't Come</a></li>
+                        <li ><a id="afield" href="#">Apuestas Field</a></li>
+                        <li ><a id="abig6y8" href="#">Apuestas Big 6 y Big 8</a></li>
+                        <li ><a id="aany7" href="#">Apuestas Any 7</a></li>
+                        <li ><a id="aanycraps" href="#">Apuestas Any Craps</a></li>
+                        <li ><a id="any11" href="#">Apuestas Any 11</a></li>
+                        <li ><a id="ahorn" href="#">Apuestas Horn</a></li>
+                        <li ><a id="ahardway" href="#">Apuestas Hardway</a></li>
+                        <li ><a id="apuntos" href="#">Apuestas A punto</a></li>
+
+                    </ul>
+                </div>
+                <div id="buttonBox2">
+                    <ul id="lista">
+                        <li><a href="?opcion=irJugar&player=<?php echo $nombre;?>&monto=<?php echo $monto;?>"> JUGAR</a></li>
+                        <li><a href="?opcion=menu&player=<?php echo $nombre;?>&monto=<?php echo $monto;?>"> Regresar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
